@@ -41,16 +41,17 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-
 let ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
-// const newNav = document.createElement('a')
-// console
-// const newNav.setAttribute('href', '#')
-// newNav.textContent = 'Services'
-// const nav = document.querySelector('.nav')
-// namespace.appendChild(newNav)
+const navItem = document.getElementsByTagName("a");
+navItem[0].innerHTML = "Services";
+navItem[1].innerHTML = "Product";
+navItem[2].innerHTML = "Vision";
+navItem[3].innerHTML = "Features";
+navItem[4].innerHTML = "About";
+navItem[5].innerHTML = "Contact";
+
