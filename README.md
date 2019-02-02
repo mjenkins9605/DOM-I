@@ -1,3 +1,4 @@
+Michael Jenkins
 # DOM I - JavaScript Content Management System
 
 ## Project Description
